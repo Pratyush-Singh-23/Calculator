@@ -1,0 +1,54 @@
+
+.mainDiv{
+    border: 2px solid black;
+    border-radius: 20px;
+    background-color: #E2BBE9;
+    height: 500px;
+    width: 30%;
+    margin: auto;
+    margin-top: 100px;
+}
+
+.displayDiv{
+    border: 2px solid black;
+    border-radius: 20px;
+    background-color: #F6F5F2;
+    width: 90%;
+    height: 100px;
+    margin: 20px;
+    font-size: 50px;
+}
+        
+.divButton{
+    border: 2px solid black;
+    border-radius: 20px;
+    background-color: #5A639C;
+    width: 90%;
+    height: 330px;
+    margin: 0px 20px 20px 20px;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-areas: 
+        "AC M div mul"
+        "sev egt nin sub"
+        "fou fiv six sum"
+        "one two thr eql"
+        "zr zr dec eql"; 
+        gap: 5px 5px;;
+}
+
+.button{
+    border-radius: 20px;
+    font-weight: bold;
+    font-size: 30px;
+    color: #373A40;
+}
+
+.other-button{
+    background-color: #FF7F3E;
+    color: white;
+}
+
+.eql-button{
+    background-color: #C7C8CC;
+}
